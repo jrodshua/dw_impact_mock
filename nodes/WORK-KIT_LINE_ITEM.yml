@@ -1,0 +1,94 @@
+steps:
+  KIT_LINE_ITEM-21b2a837-8f10-46e4-b091-77db8304673b:
+    operation:
+      database: ""
+      dataset: ""
+      deployEnabled: true
+      description: ""
+      locationID: ""
+      locationName: WORK
+      metadata:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 2b1615e4-46d3-4e57-8241-7f7cee4b721e
+              stepCounter: 21b2a837-8f10-46e4-b091-77db8304673b
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: ""
+            name: PRODUCT_SKU
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 26b5b658-5719-43cd-904b-3f2e234c3e97
+              stepCounter: 21b2a837-8f10-46e4-b091-77db8304673b
+            config: {}
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: _FIVETRAN_DELETED
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 94e19568-e461-4054-81c4-9b14478ab310
+              stepCounter: 21b2a837-8f10-46e4-b091-77db8304673b
+            config: {}
+            dataType: NUMBER(38,0)
+            defaultValue: ""
+            description: ""
+            name: KIT_LINE_INDEX
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 0aa75a71-5eb1-4342-adb0-1ccc7f0d5d3d
+              stepCounter: 21b2a837-8f10-46e4-b091-77db8304673b
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: ""
+            name: KIT_SKU
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: d885b6d8-0b83-4f43-8231-ef0d8027d53f
+              stepCounter: 21b2a837-8f10-46e4-b091-77db8304673b
+            config: {}
+            dataType: TIMESTAMP_NTZ(9)
+            defaultValue: ""
+            description: ""
+            name: _FIVETRAN_SYNCED
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+        join:
+          joinCondition: FROM {{ ref('WORK', 'KIT_LINE_ITEM') }}
+      name: KIT_LINE_ITEM
+      schema: ""
+      sqlType: Source
+      table: KIT_LINE_ITEM
+      type: sourceInput
+    stepCounter: 21b2a837-8f10-46e4-b091-77db8304673b

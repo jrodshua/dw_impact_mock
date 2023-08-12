@@ -1,0 +1,227 @@
+steps:
+  STG_FORECAST_ORDERS_2-0824e6e1-0973-44da-9501-c94836358028:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationName: SAMPLE
+      materializationType: view
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - columnReference:
+              columnCounter: 6571eddc-dc37-4c52-9c1e-f1ad939b2047
+              stepCounter: 0824e6e1-0973-44da-9501-c94836358028
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SKU
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 1531d774-0a25-4818-ad79-be2ecb512f3d
+                    stepCounter: 7a2aa380-e001-49a4-b9a0-a49157492293
+                transform: ""
+          - columnReference:
+              columnCounter: b0889b8d-e9a1-4730-a822-8a67a15d6887
+              stepCounter: 0824e6e1-0973-44da-9501-c94836358028
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ASIN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 3a80dfac-d174-4ffb-bd1d-666427d6c8ee
+                    stepCounter: 7a2aa380-e001-49a4-b9a0-a49157492293
+                transform: ""
+          - columnReference:
+              columnCounter: 57e061c7-65aa-46b1-b631-77f0aa843701
+              stepCounter: 0824e6e1-0973-44da-9501-c94836358028
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DESCRIPTION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7d6b458b-abb5-4670-8d12-ac3f3408e5d3
+                    stepCounter: 7a2aa380-e001-49a4-b9a0-a49157492293
+                transform: ""
+          - columnReference:
+              columnCounter: a9498f58-448c-4c28-a542-85fd600a7e38
+              stepCounter: 0824e6e1-0973-44da-9501-c94836358028
+            dataType: NUMBER(20,2)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: COST
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 1c4ce83a-36fb-4616-9e80-e658e685deb8
+                    stepCounter: 7a2aa380-e001-49a4-b9a0-a49157492293
+                transform: ""
+          - columnReference:
+              columnCounter: 837b3391-fa6b-41c7-9401-39ef38f9ba82
+              stepCounter: 0824e6e1-0973-44da-9501-c94836358028
+            dataType: NUMBER(20,2)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: RETAILPRICE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: e58ae5ab-9359-486f-9e2e-f91e18cdbf8b
+                    stepCounter: 7a2aa380-e001-49a4-b9a0-a49157492293
+                transform: ""
+          - columnReference:
+              columnCounter: 0cfa3ae8-d26c-452f-bd45-f0ef85fed2db
+              stepCounter: 0824e6e1-0973-44da-9501-c94836358028
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BRAND
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 0b07c257-b432-426e-ad1e-3bbeb0f670d5
+                    stepCounter: 7a2aa380-e001-49a4-b9a0-a49157492293
+                transform: ""
+          - columnReference:
+              columnCounter: ae563a1a-0771-4289-9f5f-8ec62482820e
+              stepCounter: 0824e6e1-0973-44da-9501-c94836358028
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PRODUCT_LINE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: b6d0f776-1746-47bf-aea8-9441eb1c5ede
+                    stepCounter: 7a2aa380-e001-49a4-b9a0-a49157492293
+                transform: ""
+          - columnReference:
+              columnCounter: cb2ca399-a162-4c83-91af-e4a2e90ed056
+              stepCounter: 0824e6e1-0973-44da-9501-c94836358028
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: AMAZONORDERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: f3eed50e-3469-4221-9de6-2cfea7902bf1
+                    stepCounter: f681fe78-f172-4a80-aeed-56a82d97493b
+                transform: ""
+          - columnReference:
+              columnCounter: d7700039-8490-470a-afd3-431ae95f2cfc
+              stepCounter: 0824e6e1-0973-44da-9501-c94836358028
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PURCHASEDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 23f89abe-8ba3-429d-9206-5ad7e5764a0f
+                    stepCounter: f681fe78-f172-4a80-aeed-56a82d97493b
+                transform: ""
+          - columnReference:
+              columnCounter: 977d434a-92ce-4440-b238-7ac4583c7d1d
+              stepCounter: 0824e6e1-0973-44da-9501-c94836358028
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FRCST_ORDERS_JOIN_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 23f89abe-8ba3-429d-9206-5ad7e5764a0f
+                    stepCounter: f681fe78-f172-4a80-aeed-56a82d97493b
+                transform: TO_DATE("STG_SP_ORDERS_FINAL"."PURCHASEDATE")
+          - columnReference:
+              columnCounter: 125b3a51-2977-4653-823c-d07cc5bd3877
+              stepCounter: 0824e6e1-0973-44da-9501-c94836358028
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: LASTUPDATEDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: b6e0ebbe-0a20-4a59-ba81-91e25eac0875
+                    stepCounter: f681fe78-f172-4a80-aeed-56a82d97493b
+                transform: ""
+          - columnReference:
+              columnCounter: df012eb5-259c-4f1f-b281-90bee3cec79c
+              stepCounter: 0824e6e1-0973-44da-9501-c94836358028
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ITEMSHIPSTATUS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: efa7125f-1ed0-4790-a433-acd89949e117
+                    stepCounter: f681fe78-f172-4a80-aeed-56a82d97493b
+                transform: ""
+          - columnReference:
+              columnCounter: 2bab39c8-9516-40c6-97e3-ec53337db2c8
+              stepCounter: 0824e6e1-0973-44da-9501-c94836358028
+            dataType: NUMBER(20,2)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ITEMPRICEAMOUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: c4ab2db0-36ab-49e7-ac6e-62b9e01e8fcb
+                    stepCounter: f681fe78-f172-4a80-aeed-56a82d97493b
+                transform: ""
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - aliases:
+              STG_NEATO_FORECAST: 7a2aa380-e001-49a4-b9a0-a49157492293
+              STG_SP_ORDERS_FINAL: f681fe78-f172-4a80-aeed-56a82d97493b
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: SAMPLE
+                nodeName: STG_NEATO_FORECAST
+              - locationName: SAMPLE
+                nodeName: STG_SP_ORDERS_FINAL
+            join:
+              joinCondition: |-
+                FROM {{ ref('SAMPLE', 'STG_NEATO_FORECAST') }} "STG_NEATO_FORECAST"
+                FULL JOIN {{ ref('SAMPLE', 'STG_SP_ORDERS_FINAL') }} "STG_SP_ORDERS_FINAL"
+                ON "STG_NEATO_FORECAST"."SKU" = "STG_SP_ORDERS_FINAL"."SELLERSKU"
+                WHERE "AMAZONORDERID" IS NOT NULL
+            name: STG_FORECAST_ORDERS_2
+            noLinkRefs: []
+      name: STG_FORECAST_ORDERS_2
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: 0824e6e1-0973-44da-9501-c94836358028
