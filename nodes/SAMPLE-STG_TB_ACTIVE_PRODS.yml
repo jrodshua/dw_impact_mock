@@ -1,0 +1,248 @@
+steps:
+  STG_TB_ACTIVE_PRODS-b5470224-e3b1-43bc-b904-cf18105b0f7d:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationName: SAMPLE
+      materializationType: view
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - columnReference:
+              columnCounter: ee1eedce-444c-4b30-8152-28f1b4d52730
+              stepCounter: b5470224-e3b1-43bc-b904-cf18105b0f7d
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PRODUCTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 5dbae5c1-582e-48f8-8c77-9d20dc39acc1
+                    stepCounter: 5b2a2ce3-bc3c-4928-ac1d-23ffa176c7fa
+                transform: ""
+          - columnReference:
+              columnCounter: 33a33840-8e11-404c-959c-e1b98f10d2de
+              stepCounter: b5470224-e3b1-43bc-b904-cf18105b0f7d
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SKU
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: ff2f4709-aecd-4511-ad77-d628de0f4209
+                    stepCounter: 5b2a2ce3-bc3c-4928-ac1d-23ffa176c7fa
+                transform: ""
+          - columnReference:
+              columnCounter: a6ad6b39-5b4c-43f9-b33c-4e82a32f47ed
+              stepCounter: b5470224-e3b1-43bc-b904-cf18105b0f7d
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DESCRIPTION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: d5babdf5-8e86-4345-b8f3-63dee00e2651
+                    stepCounter: 5b2a2ce3-bc3c-4928-ac1d-23ffa176c7fa
+                transform: ""
+          - columnReference:
+              columnCounter: 18bdeab4-539e-4478-941a-e1950a519ab5
+              stepCounter: b5470224-e3b1-43bc-b904-cf18105b0f7d
+            dataType: NUMBER(20,2)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: COST
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: ee704199-14cb-43d5-9016-9a87c0881a3a
+                    stepCounter: 5b2a2ce3-bc3c-4928-ac1d-23ffa176c7fa
+                transform: ""
+          - columnReference:
+              columnCounter: 0bb43759-cb4b-4742-8ceb-fcb06beda20e
+              stepCounter: b5470224-e3b1-43bc-b904-cf18105b0f7d
+            dataType: NUMBER(20,2)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: RETAILPRICE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 31627f72-5c6b-47d1-b382-1f1390810dfe
+                    stepCounter: 5b2a2ce3-bc3c-4928-ac1d-23ffa176c7fa
+                transform: ""
+          - columnReference:
+              columnCounter: 09d72dae-24c8-4cb3-a4b3-7cf9e578dcd6
+              stepCounter: b5470224-e3b1-43bc-b904-cf18105b0f7d
+            dataType: NUMBER(20,2)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SALEPRICE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: be4ecd2d-1ae1-4cbd-ae87-2a3a31e96c22
+                    stepCounter: 5b2a2ce3-bc3c-4928-ac1d-23ffa176c7fa
+                transform: ""
+          - columnReference:
+              columnCounter: 23556368-e960-4be0-a91f-d69f901f7bf9
+              stepCounter: b5470224-e3b1-43bc-b904-cf18105b0f7d
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BRAND
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 122a0b83-3f71-497a-b24e-ffb808ca8d23
+                    stepCounter: 5b2a2ce3-bc3c-4928-ac1d-23ffa176c7fa
+                transform: ""
+          - columnReference:
+              columnCounter: 4012b445-dcdf-401f-a2db-8fcbde2e89f2
+              stepCounter: b5470224-e3b1-43bc-b904-cf18105b0f7d
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CREATEDDATEUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 6e7b36c9-0fa2-4160-a8c9-1fc25a191082
+                    stepCounter: 5b2a2ce3-bc3c-4928-ac1d-23ffa176c7fa
+                transform: ""
+          - columnReference:
+              columnCounter: 3bbb8c6e-d6cd-4c9a-9bb5-e3b22553fce4
+              stepCounter: b5470224-e3b1-43bc-b904-cf18105b0f7d
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: MODIFIEDDATEUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 441a8961-eaf8-4544-8367-71c2803173f4
+                    stepCounter: 5b2a2ce3-bc3c-4928-ac1d-23ffa176c7fa
+                transform: ""
+          - columnReference:
+              columnCounter: 316153f5-2e8a-4c61-b397-33755e6412be
+              stepCounter: b5470224-e3b1-43bc-b904-cf18105b0f7d
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CREATE_TIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: a89fbb6f-96c7-4e61-93bd-2ab9d7dc0f9a
+                    stepCounter: 5b2a2ce3-bc3c-4928-ac1d-23ffa176c7fa
+                transform: ""
+          - columnReference:
+              columnCounter: 3aa2315e-0ee3-4c9e-a8d2-4b1944c1032d
+              stepCounter: b5470224-e3b1-43bc-b904-cf18105b0f7d
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: RANKED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: af422b7a-1723-4284-a63f-cbb39f996a48
+                    stepCounter: 5b2a2ce3-bc3c-4928-ac1d-23ffa176c7fa
+                transform: ""
+          - columnReference:
+              columnCounter: e9916521-8494-4c81-b257-63969adfa09a
+              stepCounter: b5470224-e3b1-43bc-b904-cf18105b0f7d
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PRODUCTLINE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 56155d0a-e8b7-403f-bbdd-d0417541a4ea
+                    stepCounter: ebf2ffe7-9788-46cd-8609-1787fdb5b878
+                transform: ""
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - aliases:
+              SKU_ACTIVE_ITEMS: 5b2a2ce3-bc3c-4928-ac1d-23ffa176c7fa
+              SKU_PRODUCT_ATTR: ebf2ffe7-9788-46cd-8609-1787fdb5b878
+            customSQL:
+              customSQL: |-
+                {{ stage('Override Create SQL') }}
+                CREATE OR REPLACE VIEW
+                  "IMPACT_READ"."PUBLIC"."STG_TB_ACTIVE_PRODS" (
+                    "PRODUCTID",
+                    "SKU",
+                    "DESCRIPTION",
+                    "COST",
+                    "RETAILPRICE",
+                    "SALEPRICE",
+                    "BRAND",
+                    "CREATEDDATEUTC",
+                    "MODIFIEDDATEUTC",
+                    "CREATE_TIME",
+                    "RANKED",
+                    "PRODUCTLINE"
+                  ) AS
+                SELECT DISTINCT
+                  "SKU_ACTIVE_ITEMS"."PRODUCTID" AS "PRODUCTID",
+                  "SKU_ACTIVE_ITEMS"."SKU" AS "SKU",
+                  "SKU_ACTIVE_ITEMS"."DESCRIPTION" AS "DESCRIPTION",
+                  "SKU_ACTIVE_ITEMS"."COST" AS "COST",
+                  "SKU_ACTIVE_ITEMS"."RETAILPRICE" AS "RETAILPRICE",
+                  "SKU_ACTIVE_ITEMS"."SALEPRICE" AS "SALEPRICE",
+                  "SKU_ACTIVE_ITEMS"."BRAND" AS "BRAND",
+                  "SKU_ACTIVE_ITEMS"."CREATEDDATEUTC" AS "CREATEDDATEUTC",
+                  "SKU_ACTIVE_ITEMS"."MODIFIEDDATEUTC" AS "MODIFIEDDATEUTC",
+                  "SKU_ACTIVE_ITEMS"."CREATE_TIME" AS "CREATE_TIME",
+                  "SKU_ACTIVE_ITEMS"."RANKED" AS "RANKED",
+                  "SKU_PRODUCT_ATTR"."ATTRIBUTEVALUE" AS "PRODUCTLINE"
+                FROM
+                  "IMPACT_READ"."PUBLIC"."SKU_ACTIVE_ITEMS" "SKU_ACTIVE_ITEMS"
+                  INNER JOIN "IMPACT_READ"."PUBLIC"."SKU_PRODUCT_ATTR" "SKU_PRODUCT_ATTR" ON "SKU_ACTIVE_ITEMS"."PRODUCTID" = "SKU_PRODUCT_ATTR"."PRODUCTID"
+                  AND (
+                    "SKU_PRODUCT_ATTR"."ATTRIBUTENAME" = 'Product Line'
+                  )
+            dependencies:
+              - locationName: SAMPLE
+                nodeName: SKU_ACTIVE_ITEMS
+              - locationName: SAMPLE
+                nodeName: SKU_PRODUCT_ATTR
+            join:
+              joinCondition: |-
+                FROM {{ ref('SAMPLE', 'SKU_ACTIVE_ITEMS') }} "SKU_ACTIVE_ITEMS"
+                INNER JOIN {{ ref('SAMPLE', 'SKU_PRODUCT_ATTR') }} "SKU_PRODUCT_ATTR"
+                ON "SKU_ACTIVE_ITEMS"."PRODUCTID" = "SKU_PRODUCT_ATTR"."PRODUCTID" AND
+                ("SKU_PRODUCT_ATTR"."ATTRIBUTENAME" = 'Product Line')
+            name: STG_TB_ACTIVE_PRODS
+            noLinkRefs: []
+      name: STG_TB_ACTIVE_PRODS
+      overrideSQL: true
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: b5470224-e3b1-43bc-b904-cf18105b0f7d

@@ -1,0 +1,312 @@
+steps:
+  STG_TB_STRAFF_PRODS_UNION-25e05fdf-6237-4810-965a-adf12cfdd413:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationName: SAMPLE
+      materializationType: view
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - columnReference:
+              columnCounter: a584e694-cc16-4261-adcf-6d7ac5ec8eb8
+              stepCounter: 25e05fdf-6237-4810-965a-adf12cfdd413
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SKU
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 33a33840-8e11-404c-959c-e1b98f10d2de
+                    stepCounter: b5470224-e3b1-43bc-b904-cf18105b0f7d
+                transform: ""
+          - columnReference:
+              columnCounter: 19a507ec-3f79-4d72-9b59-b1d86602fdd3
+              stepCounter: 25e05fdf-6237-4810-965a-adf12cfdd413
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DESCRIPTION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: a6ad6b39-5b4c-43f9-b33c-4e82a32f47ed
+                    stepCounter: b5470224-e3b1-43bc-b904-cf18105b0f7d
+                transform: ""
+          - columnReference:
+              columnCounter: 7e60b40f-59b3-4f12-8749-83c94a029c55
+              stepCounter: 25e05fdf-6237-4810-965a-adf12cfdd413
+            dataType: NUMBER(20,2)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: COST
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 18bdeab4-539e-4478-941a-e1950a519ab5
+                    stepCounter: b5470224-e3b1-43bc-b904-cf18105b0f7d
+                transform: ""
+          - columnReference:
+              columnCounter: 3ab8c366-17db-4568-930a-f8230f287439
+              stepCounter: 25e05fdf-6237-4810-965a-adf12cfdd413
+            dataType: NUMBER(20,2)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: RETAILPRICE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 0bb43759-cb4b-4742-8ceb-fcb06beda20e
+                    stepCounter: b5470224-e3b1-43bc-b904-cf18105b0f7d
+                transform: ""
+          - columnReference:
+              columnCounter: 0242bef2-1701-4ccc-86d4-493bade5f1e6
+              stepCounter: 25e05fdf-6237-4810-965a-adf12cfdd413
+            dataType: NUMBER(20,2)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SALEPRICE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 09d72dae-24c8-4cb3-a4b3-7cf9e578dcd6
+                    stepCounter: b5470224-e3b1-43bc-b904-cf18105b0f7d
+                transform: ""
+          - columnReference:
+              columnCounter: 39c1963f-dc6e-40a0-95d9-76553a8553a4
+              stepCounter: 25e05fdf-6237-4810-965a-adf12cfdd413
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BRAND
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 23556368-e960-4be0-a91f-d69f901f7bf9
+                    stepCounter: b5470224-e3b1-43bc-b904-cf18105b0f7d
+                transform: ""
+          - columnReference:
+              columnCounter: 6a4b6999-8c4a-444d-8f44-b7e587429fc4
+              stepCounter: 25e05fdf-6237-4810-965a-adf12cfdd413
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PRODUCTLINE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: e9916521-8494-4c81-b257-63969adfa09a
+                    stepCounter: b5470224-e3b1-43bc-b904-cf18105b0f7d
+                transform: ""
+          - columnReference:
+              columnCounter: c5691b67-fb1a-4ba5-8c8e-ad10f4ca6a72
+              stepCounter: 25e05fdf-6237-4810-965a-adf12cfdd413
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CHILDASIN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 04873657-57a8-4b20-9a8c-216f9e3be066
+                    stepCounter: 8ac0b575-2733-4ac3-b470-be0c34df6e5e
+                transform: ""
+          - columnReference:
+              columnCounter: 32a4262b-4568-47af-9482-cb97e9156f51
+              stepCounter: 25e05fdf-6237-4810-965a-adf12cfdd413
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: d7ac38dd-78ce-4709-bfd9-6caf0a5c657c
+                    stepCounter: 8ac0b575-2733-4ac3-b470-be0c34df6e5e
+                transform: ""
+          - columnReference:
+              columnCounter: f73a1d37-5a94-4135-8710-8e0d488e47c7
+              stepCounter: 25e05fdf-6237-4810-965a-adf12cfdd413
+            dataType: NUMBER(20,2)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SALESBYASIN_ORDEREDPRODUCTSALES_AMOUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: ca6b2537-15c0-4f02-a783-b3ff046d81bc
+                    stepCounter: 8ac0b575-2733-4ac3-b470-be0c34df6e5e
+                transform: ""
+          - columnReference:
+              columnCounter: c3f5dcee-c448-41d0-a348-483285523bbd
+              stepCounter: 25e05fdf-6237-4810-965a-adf12cfdd413
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SALESBYASIN_TOTALORDERITEMS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: c2c169e3-2697-4f13-aa06-9b2607e24611
+                    stepCounter: 8ac0b575-2733-4ac3-b470-be0c34df6e5e
+                transform: ""
+          - columnReference:
+              columnCounter: 24395a35-e4a6-4d65-96d8-9d43941a41d1
+              stepCounter: 25e05fdf-6237-4810-965a-adf12cfdd413
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SALESBYASIN_UNITSORDERED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: dd79e100-f21d-4a1a-a491-5e3c2c45cc26
+                    stepCounter: 8ac0b575-2733-4ac3-b470-be0c34df6e5e
+                transform: ""
+          - columnReference:
+              columnCounter: a19f37e0-cc86-4bc5-a9ac-73ceaabda7fd
+              stepCounter: 25e05fdf-6237-4810-965a-adf12cfdd413
+            dataType: NUMBER(5,2)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TRAFFICBYASIN_BUYBOXPERCENTAGE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 97ef0df9-6683-443b-9e76-76acb35014af
+                    stepCounter: 8ac0b575-2733-4ac3-b470-be0c34df6e5e
+                transform: ""
+          - columnReference:
+              columnCounter: 906e2402-c1c8-4e28-aa92-b6a3e7c39ab3
+              stepCounter: 25e05fdf-6237-4810-965a-adf12cfdd413
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TRAFFICBYASIN_PAGEVIEWS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: cdad4502-0cf4-4589-b0b5-53df70548b89
+                    stepCounter: 8ac0b575-2733-4ac3-b470-be0c34df6e5e
+                transform: ""
+          - columnReference:
+              columnCounter: d83d9d7a-0302-46c0-8f71-fd5481f05e36
+              stepCounter: 25e05fdf-6237-4810-965a-adf12cfdd413
+            dataType: NUMBER(5,2)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TRAFFICBYASIN_PAGEVIEWSPERCENTAGE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: dc412024-d8be-4e5b-81da-fd9c8500c05f
+                    stepCounter: 8ac0b575-2733-4ac3-b470-be0c34df6e5e
+                transform: ""
+          - columnReference:
+              columnCounter: 49a1be5c-1753-4388-9fd7-0e17ddae505b
+              stepCounter: 25e05fdf-6237-4810-965a-adf12cfdd413
+            dataType: NUMBER(5,2)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TRAFFICBYASIN_SESSIONPERCENTAGE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 92bc9afb-7333-4f89-897b-7c4192307d56
+                    stepCounter: 8ac0b575-2733-4ac3-b470-be0c34df6e5e
+                transform: ""
+          - columnReference:
+              columnCounter: 240a06af-9a02-4e2a-a4c2-55f665295d0d
+              stepCounter: 25e05fdf-6237-4810-965a-adf12cfdd413
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TRAFFICBYASIN_SESSIONS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 2ef285f3-b00e-459f-a0ad-382f817a6f7b
+                    stepCounter: 8ac0b575-2733-4ac3-b470-be0c34df6e5e
+                transform: ""
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - aliases:
+              STG_TB_ACTIVE_PRODS: b5470224-e3b1-43bc-b904-cf18105b0f7d
+              STG_TB_SALESTRAFF: 8ac0b575-2733-4ac3-b470-be0c34df6e5e
+            customSQL:
+              customSQL: |-
+                {{ stage('Override Create SQL') }}
+                	CREATE OR REPLACE VIEW {{ ref('SAMPLE', 'STG_TB_STRAFF_PRODS_UNION')}} AS (
+                		SELECT 
+                 PRODUCTID AS PRODUCTID,
+                 SKU AS SKU,
+                 DESCRIPTION AS DESCRIPTION,
+                 COST AS COST,
+                 RETAILPRICE AS RETAILPRICE,
+                 SALEPRICE AS SALEPRICE,
+                 BRAND AS BRAND,
+                 CREATEDDATEUTC AS CREATEDDATEUTC,
+                 MODIFIEDDATEUTC AS MODIFIEDDATEUTC,
+                 CREATE_TIME AS CREATE_TIME,
+                 RANKED AS RANKED,
+                 PRODUCTLINE AS PRODUCTLINE
+                 CHILDASIN AS CHILDASIN,
+                 DATE AS DATE,
+                 SALESBYASIN_ORDEREDPRODUCTSALES_AMOUNT AS SALESBYASIN_ORDEREDPRODUCTSALES_AMOUNT,
+                 SALESBYASIN_TOTALORDERITEMS AS SALESBYASIN_TOTALORDERITEMS,
+                 SALESBYASIN_UNITSORDERED AS SALESBYASIN_UNITSORDERED,
+                 TRAFFICBYASIN_BUYBOXPERCENTAGE AS TRAFFICBYASIN_BUYBOXPERCENTAGE,
+                 TRAFFICBYASIN_PAGEVIEWS AS TRAFFICBYASIN_PAGEVIEWS,
+                 TRAFFICBYASIN_PAGEVIEWSPERCENTAGE AS TRAFFICBYASIN_PAGEVIEWSPERCENTAGE,
+                 TRAFFICBYASIN_SESSIONPERCENTAGE AS TRAFFICBYASIN_SESSIONPERCENTAGE,
+                 TRAFFICBYASIN_SESSIONS AS TRAFFICBYASIN_SESSIONS,
+                 SKU AS SKU
+                 FROM {{ ref('SAMPLE', 'STG_TB_ACTIVE_PRODS') }}
+                INNER JOIN {{ ref('SAMPLE', 'STG_TB_SALESTRAFF') }} "STG_TB_SALESTRAFF"
+                ON "{{ ref('SAMPLE', 'STG_TB_ACTIVE_PRODS') }}"."SKU" = "STG_TB_SALESTRAFF"."SKU"
+                	)
+            dependencies:
+              - locationName: SAMPLE
+                nodeName: STG_TB_ACTIVE_PRODS
+              - locationName: SAMPLE
+                nodeName: STG_TB_SALESTRAFF
+            join:
+              joinCondition: |-
+                FROM {{ ref('SAMPLE', 'STG_TB_ACTIVE_PRODS') }} "STG_TB_ACTIVE_PRODS"
+                INNER JOIN {{ ref('SAMPLE', 'STG_TB_SALESTRAFF') }} "STG_TB_SALESTRAFF"
+                ON "STG_TB_ACTIVE_PRODS"."SKU" = "STG_TB_SALESTRAFF"."SKU"
+            name: STG_TB_STRAFF_PRODS_UNION
+            noLinkRefs: []
+      name: STG_TB_STRAFF_PRODS_UNION
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: 25e05fdf-6237-4810-965a-adf12cfdd413

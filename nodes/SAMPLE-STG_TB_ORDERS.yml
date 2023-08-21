@@ -1,0 +1,207 @@
+steps:
+  STG_TB_ORDERS-c4c85c86-2f72-4b6d-955f-0ec86fe9c4d0:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationName: SAMPLE
+      materializationType: view
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - columnReference:
+              columnCounter: 7e64a4b6-4b73-4603-85db-51a0f586784a
+              stepCounter: c4c85c86-2f72-4b6d-955f-0ec86fe9c4d0
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: AMAZONORDERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: cc6cf069-4dc3-41f8-9400-8fa38763bcd9
+                    stepCounter: fa5dafff-c3f1-4943-9cd2-fb8bd613d119
+                transform: ""
+          - columnReference:
+              columnCounter: 8ac8af25-720a-4fbc-8355-af53e1db3fe3
+              stepCounter: c4c85c86-2f72-4b6d-955f-0ec86fe9c4d0
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PURCHASEDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 95ed958f-bcc4-4979-bc22-dbbdce759ce0
+                    stepCounter: fa5dafff-c3f1-4943-9cd2-fb8bd613d119
+                transform: ""
+          - columnReference:
+              columnCounter: 231419df-3fff-4983-aada-09ab595a8bec
+              stepCounter: c4c85c86-2f72-4b6d-955f-0ec86fe9c4d0
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: LASTUPDATEDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7bb25786-4770-4d78-af2e-0e66557f7a7d
+                    stepCounter: fa5dafff-c3f1-4943-9cd2-fb8bd613d119
+                transform: ""
+          - columnReference:
+              columnCounter: cfdb7a51-d924-4b05-afa5-26d6728075c7
+              stepCounter: c4c85c86-2f72-4b6d-955f-0ec86fe9c4d0
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ITEMSHIPSTATUS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 271e7a75-2fd0-40e4-aa12-3254a99fa9a4
+                    stepCounter: fa5dafff-c3f1-4943-9cd2-fb8bd613d119
+                transform: ""
+          - columnReference:
+              columnCounter: 9675999b-f980-4948-b679-02646f2fef80
+              stepCounter: c4c85c86-2f72-4b6d-955f-0ec86fe9c4d0
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ASIN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 24eca9da-8352-4ed9-bdec-1e591877a0a2
+                    stepCounter: fa5dafff-c3f1-4943-9cd2-fb8bd613d119
+                transform: ""
+          - columnReference:
+              columnCounter: 260f762c-32f1-4fa5-81ac-82e712498c15
+              stepCounter: c4c85c86-2f72-4b6d-955f-0ec86fe9c4d0
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SELLERSKU
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 8e8dcca1-e041-4c9e-8dc5-3e12e3570cff
+                    stepCounter: fa5dafff-c3f1-4943-9cd2-fb8bd613d119
+                transform: ""
+          - columnReference:
+              columnCounter: ae172c9b-3565-4151-837b-e1781d33a425
+              stepCounter: c4c85c86-2f72-4b6d-955f-0ec86fe9c4d0
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: QUANTITYORDERED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 94b0d6ea-12bf-420e-ac81-ccc545486add
+                    stepCounter: fa5dafff-c3f1-4943-9cd2-fb8bd613d119
+                transform: ""
+          - columnReference:
+              columnCounter: 72242411-3f84-4ab4-8d0a-671300eed2cd
+              stepCounter: c4c85c86-2f72-4b6d-955f-0ec86fe9c4d0
+            dataType: NUMBER(20,2)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ITEMPRICEAMOUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 1bc38b0a-52de-4bb8-b7a4-6736626c4053
+                    stepCounter: fa5dafff-c3f1-4943-9cd2-fb8bd613d119
+                transform: ""
+          - columnReference:
+              columnCounter: 126bf0ae-396d-45e4-9887-1608780d2ec9
+              stepCounter: c4c85c86-2f72-4b6d-955f-0ec86fe9c4d0
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ITEMCREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 7df245a8-4fef-469d-9eee-590fdf7078cc
+                    stepCounter: fa5dafff-c3f1-4943-9cd2-fb8bd613d119
+                transform: ""
+          - columnReference:
+              columnCounter: 3a76dbf3-1b35-4161-95e4-77c39250998d
+              stepCounter: c4c85c86-2f72-4b6d-955f-0ec86fe9c4d0
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ORDERRANK
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: b3ec1876-b11d-409d-93b2-6ff8c958543b
+                    stepCounter: fa5dafff-c3f1-4943-9cd2-fb8bd613d119
+                transform: ""
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: |-
+                {{ stage('Override Create SQL') }}
+                CREATE OR REPLACE VIEW
+                  "IMPACT_READ"."PUBLIC"."STG_TB_ORDERS" (
+                    "AMAZONORDERID",
+                    "PURCHASEDATE",
+                    "LASTUPDATEDATE",
+                    "ITEMSHIPSTATUS",
+                    "ASIN",
+                    "SELLERSKU",
+                    "QUANTITYORDERED",
+                    "ITEMPRICEAMOUNT",
+                    "ITEMCREATETIME",
+                    "ORDERRANK"
+                  ) AS
+                SELECT DISTINCT
+                  "SP_ORDERS_FINAL2"."AMAZONORDERID" AS "AMAZONORDERID",
+                  "SP_ORDERS_FINAL2"."PURCHASEDATE" AS "PURCHASEDATE",
+                  "SP_ORDERS_FINAL2"."LASTUPDATEDATE" AS "LASTUPDATEDATE",
+                  "SP_ORDERS_FINAL2"."ITEMSHIPSTATUS" AS "ITEMSHIPSTATUS",
+                  "SP_ORDERS_FINAL2"."ASIN" AS "ASIN",
+                  "SP_ORDERS_FINAL2"."SELLERSKU" AS "SELLERSKU",
+                  "SP_ORDERS_FINAL2"."QUANTITYORDERED" AS "QUANTITYORDERED",
+                  "SP_ORDERS_FINAL2"."ITEMPRICEAMOUNT" AS "ITEMPRICEAMOUNT",
+                  "SP_ORDERS_FINAL2"."ITEMCREATETIME" AS "ITEMCREATETIME",
+                  "SP_ORDERS_FINAL2"."ORDERRANK" AS "ORDERRANK"
+                FROM
+                  "IMPACT_READ"."PUBLIC"."SP_ORDERS_FINAL2" "SP_ORDERS_FINAL2"
+                WHERE "SP_ORDERS_FINAL2"."ITEMSHIPSTATUS" = 'SHIPPED' OR
+                "SP_ORDERS_FINAL2"."ITEMSHIPSTATUS" = 'PENDING' OR
+                "SP_ORDERS_FINAL2"."ITEMSHIPSTATUS" = 'SHIPPING'
+                  
+            dependencies:
+              - locationName: SAMPLE
+                nodeName: SP_ORDERS_FINAL2
+            join:
+              joinCondition: FROM {{ ref('SAMPLE', 'SP_ORDERS_FINAL2') }} "SP_ORDERS_FINAL2"
+            name: STG_TB_ORDERS
+            noLinkRefs: []
+      name: STG_TB_ORDERS
+      overrideSQL: true
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: c4c85c86-2f72-4b6d-955f-0ec86fe9c4d0

@@ -1,0 +1,218 @@
+steps:
+  STG_TB_SALESTRAFF-8ac0b575-2733-4ac3-b470-be0c34df6e5e:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationName: SAMPLE
+      materializationType: view
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - columnReference:
+              columnCounter: 04873657-57a8-4b20-9a8c-216f9e3be066
+              stepCounter: 8ac0b575-2733-4ac3-b470-be0c34df6e5e
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CHILDASIN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: a4493264-2e7b-441f-b3b0-8dc6013216d9
+                    stepCounter: 20f15943-af60-4101-af79-e1eebdcc540c
+                transform: ""
+          - columnReference:
+              columnCounter: d7ac38dd-78ce-4709-bfd9-6caf0a5c657c
+              stepCounter: 8ac0b575-2733-4ac3-b470-be0c34df6e5e
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 2903b910-1704-48f3-b600-b8097bbf15da
+                    stepCounter: 20f15943-af60-4101-af79-e1eebdcc540c
+                transform: ""
+          - columnReference:
+              columnCounter: ca6b2537-15c0-4f02-a783-b3ff046d81bc
+              stepCounter: 8ac0b575-2733-4ac3-b470-be0c34df6e5e
+            dataType: NUMBER(20,2)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SALESBYASIN_ORDEREDPRODUCTSALES_AMOUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: f013605b-b079-43d3-b36a-b7b666616f9a
+                    stepCounter: 20f15943-af60-4101-af79-e1eebdcc540c
+                transform: ""
+          - columnReference:
+              columnCounter: c2c169e3-2697-4f13-aa06-9b2607e24611
+              stepCounter: 8ac0b575-2733-4ac3-b470-be0c34df6e5e
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SALESBYASIN_TOTALORDERITEMS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 26429be2-9de2-48c4-a9d6-9c59064b797d
+                    stepCounter: 20f15943-af60-4101-af79-e1eebdcc540c
+                transform: ""
+          - columnReference:
+              columnCounter: dd79e100-f21d-4a1a-a491-5e3c2c45cc26
+              stepCounter: 8ac0b575-2733-4ac3-b470-be0c34df6e5e
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SALESBYASIN_UNITSORDERED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 9cb7199b-74dd-45fd-a63f-7f09bf7fcdfd
+                    stepCounter: 20f15943-af60-4101-af79-e1eebdcc540c
+                transform: ""
+          - columnReference:
+              columnCounter: 97ef0df9-6683-443b-9e76-76acb35014af
+              stepCounter: 8ac0b575-2733-4ac3-b470-be0c34df6e5e
+            dataType: NUMBER(5,2)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TRAFFICBYASIN_BUYBOXPERCENTAGE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 8c44e93f-1567-409e-af3d-ec1f30633731
+                    stepCounter: 20f15943-af60-4101-af79-e1eebdcc540c
+                transform: ""
+          - columnReference:
+              columnCounter: cdad4502-0cf4-4589-b0b5-53df70548b89
+              stepCounter: 8ac0b575-2733-4ac3-b470-be0c34df6e5e
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TRAFFICBYASIN_PAGEVIEWS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 3e2b0ce5-19a0-4355-b39f-39a6f31421d3
+                    stepCounter: 20f15943-af60-4101-af79-e1eebdcc540c
+                transform: ""
+          - columnReference:
+              columnCounter: dc412024-d8be-4e5b-81da-fd9c8500c05f
+              stepCounter: 8ac0b575-2733-4ac3-b470-be0c34df6e5e
+            dataType: NUMBER(5,2)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TRAFFICBYASIN_PAGEVIEWSPERCENTAGE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 40924dfe-9d08-489a-bd0d-9ed2ed5d06e0
+                    stepCounter: 20f15943-af60-4101-af79-e1eebdcc540c
+                transform: ""
+          - columnReference:
+              columnCounter: 92bc9afb-7333-4f89-897b-7c4192307d56
+              stepCounter: 8ac0b575-2733-4ac3-b470-be0c34df6e5e
+            dataType: NUMBER(5,2)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TRAFFICBYASIN_SESSIONPERCENTAGE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 1d674154-b62e-4271-b27c-871d900b2deb
+                    stepCounter: 20f15943-af60-4101-af79-e1eebdcc540c
+                transform: ""
+          - columnReference:
+              columnCounter: 2ef285f3-b00e-459f-a0ad-382f817a6f7b
+              stepCounter: 8ac0b575-2733-4ac3-b470-be0c34df6e5e
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TRAFFICBYASIN_SESSIONS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: c90346c1-261d-4437-9af9-81d347ff52b6
+                    stepCounter: 20f15943-af60-4101-af79-e1eebdcc540c
+                transform: ""
+          - columnReference:
+              columnCounter: 732b072a-5c5d-4df9-8ef1-6d41534e787b
+              stepCounter: 8ac0b575-2733-4ac3-b470-be0c34df6e5e
+            dataType: VARCHAR(16777216)
+            description: ""
+            name: SKU
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 0bb989a5-f1ec-4aa2-a1d4-fb67c08b2498
+                    stepCounter: 20f15943-af60-4101-af79-e1eebdcc540c
+                transform: ""
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: |-
+                {{ stage('Override Create SQL') }}
+                CREATE OR REPLACE VIEW
+                  "IMPACT_READ"."PUBLIC"."STG_TB_SALESTRAFF" (
+                    "CHILDASIN",
+                    "DATE",
+                    "SALESBYASIN_ORDEREDPRODUCTSALES_AMOUNT",
+                    "SALESBYASIN_TOTALORDERITEMS",
+                    "SALESBYASIN_UNITSORDERED",
+                    "TRAFFICBYASIN_BUYBOXPERCENTAGE",
+                    "TRAFFICBYASIN_PAGEVIEWS",
+                    "TRAFFICBYASIN_PAGEVIEWSPERCENTAGE",
+                    "TRAFFICBYASIN_SESSIONPERCENTAGE",
+                    "TRAFFICBYASIN_SESSIONS",
+                    "SKU"
+                  ) AS
+                SELECT
+                  "SP_SALES_AND_TRAFFIC2"."CHILDASIN" AS "CHILDASIN",
+                  "SP_SALES_AND_TRAFFIC2"."DATE" AS "DATE",
+                  SUM("SP_SALES_AND_TRAFFIC2"."SALESBYASIN_ORDEREDPRODUCTSALES_AMOUNT") AS "SALESBYASIN_ORDEREDPRODUCTSALES_AMOUNT",
+                  SUM("SP_SALES_AND_TRAFFIC2"."SALESBYASIN_TOTALORDERITEMS") AS "SALESBYASIN_TOTALORDERITEMS",
+                  SUM("SP_SALES_AND_TRAFFIC2"."SALESBYASIN_UNITSORDERED") AS "SALESBYASIN_UNITSORDERED",
+                  MAX("SP_SALES_AND_TRAFFIC2"."TRAFFICBYASIN_BUYBOXPERCENTAGE") AS "TRAFFICBYASIN_BUYBOXPERCENTAGE",
+                  MAX("SP_SALES_AND_TRAFFIC2"."TRAFFICBYASIN_PAGEVIEWS") AS "TRAFFICBYASIN_PAGEVIEWS",
+                  MAX("SP_SALES_AND_TRAFFIC2"."TRAFFICBYASIN_PAGEVIEWSPERCENTAGE") AS "TRAFFICBYASIN_PAGEVIEWSPERCENTAGE",
+                  MAX("SP_SALES_AND_TRAFFIC2"."TRAFFICBYASIN_SESSIONPERCENTAGE") AS "TRAFFICBYASIN_SESSIONPERCENTAGE",
+                  MAX("SP_SALES_AND_TRAFFIC2"."TRAFFICBYASIN_SESSIONS") AS "TRAFFICBYASIN_SESSIONS",
+                  "SP_SALES_AND_TRAFFIC2"."SKU" AS "SKU"
+                FROM
+                  "IMPACT_READ"."PUBLIC"."SP_SALES_AND_TRAFFIC2" "SP_SALES_AND_TRAFFIC2"
+                GROUP BY "CHILDASIN", "DATE", "SKU"
+            dependencies:
+              - locationName: SAMPLE
+                nodeName: SP_SALES_AND_TRAFFIC2
+            join:
+              joinCondition: FROM {{ ref('SAMPLE', 'SP_SALES_AND_TRAFFIC2') }} "SP_SALES_AND_TRAFFIC2"
+            name: STG_TB_SALESTRAFF
+            noLinkRefs: []
+      name: STG_TB_SALESTRAFF
+      overrideSQL: true
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: 8ac0b575-2733-4ac3-b470-be0c34df6e5e
